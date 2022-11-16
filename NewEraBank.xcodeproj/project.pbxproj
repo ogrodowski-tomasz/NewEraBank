@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E489FC329250FEA00D916AE /* NewEraBankApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E489FC229250FEA00D916AE /* NewEraBankApp.swift */; };
+		1E489FC529250FEA00D916AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E489FC429250FEA00D916AE /* ContentView.swift */; };
+		1E489FC729250FEB00D916AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E489FC629250FEB00D916AE /* Assets.xcassets */; };
+		1E489FCA29250FEB00D916AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E489FC929250FEB00D916AE /* Preview Assets.xcassets */; };
+		1E489FD12925118F00D916AE /* Extensions+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E489FD02925118F00D916AE /* Extensions+Colors.swift */; };
+		1E489FD3292520B600D916AE /* MainViewButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E489FD2292520B600D916AE /* MainViewButtons.swift */; };
+		1E489FD5292520CD00D916AE /* DebitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E489FD4292520CD00D916AE /* DebitCardView.swift */; };
+		1E489FD7292520E300D916AE /* ExpensionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E489FD6292520E300D916AE /* ExpensionRow.swift */; };
+		1E489FDE292524E900D916AE /* Extensions+Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E489FDD292524E900D916AE /* Extensions+Double.swift */; };
+		1E489FE12925283300D916AE /* ExpensesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E489FE02925283300D916AE /* ExpensesViewModel.swift */; };
+		1E489FE32925299500D916AE /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E489FE22925299500D916AE /* AddExpenseView.swift */; };
+		1E489FE52925303200D916AE /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E489FE42925303200D916AE /* Expense.swift */; };
+		1E489FE829253EF400D916AE /* ExpenseDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E489FE629253EF400D916AE /* ExpenseDataModel.xcdatamodeld */; };
+		1E489FEB29253F3B00D916AE /* ExpensesDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E489FEA29253F3B00D916AE /* ExpensesDataService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E489FBF29250FEA00D916AE /* NewEraBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewEraBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E489FC229250FEA00D916AE /* NewEraBankApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEraBankApp.swift; sourceTree = "<group>"; };
+		1E489FC429250FEA00D916AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1E489FC629250FEB00D916AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E489FC929250FEB00D916AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1E489FD02925118F00D916AE /* Extensions+Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+Colors.swift"; sourceTree = "<group>"; };
+		1E489FD2292520B600D916AE /* MainViewButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewButtons.swift; sourceTree = "<group>"; };
+		1E489FD4292520CD00D916AE /* DebitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebitCardView.swift; sourceTree = "<group>"; };
+		1E489FD6292520E300D916AE /* ExpensionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensionRow.swift; sourceTree = "<group>"; };
+		1E489FDD292524E900D916AE /* Extensions+Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+Double.swift"; sourceTree = "<group>"; };
+		1E489FE02925283300D916AE /* ExpensesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesViewModel.swift; sourceTree = "<group>"; };
+		1E489FE22925299500D916AE /* AddExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseView.swift; sourceTree = "<group>"; };
+		1E489FE42925303200D916AE /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		1E489FE729253EF400D916AE /* ExpenseDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExpenseDataModel.xcdatamodel; sourceTree = "<group>"; };
+		1E489FEA29253F3B00D916AE /* ExpensesDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesDataService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E489FBC29250FEA00D916AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E489FB629250FEA00D916AE = {
+			isa = PBXGroup;
+			children = (
+				1E489FC129250FEA00D916AE /* NewEraBank */,
+				1E489FC029250FEA00D916AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E489FC029250FEA00D916AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E489FBF29250FEA00D916AE /* NewEraBank.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E489FC129250FEA00D916AE /* NewEraBank */ = {
+			isa = PBXGroup;
+			children = (
+				1E489FE929253F2C00D916AE /* Services */,
+				1E489FDF2925282900D916AE /* ViewModels */,
+				1E489FDA2925214300D916AE /* Utils */,
+				1E489FD92925213E00D916AE /* Views */,
+				1E489FD82925213C00D916AE /* Models */,
+				1E489FC229250FEA00D916AE /* NewEraBankApp.swift */,
+				1E489FC429250FEA00D916AE /* ContentView.swift */,
+				1E489FC629250FEB00D916AE /* Assets.xcassets */,
+				1E489FC829250FEB00D916AE /* Preview Content */,
+			);
+			path = NewEraBank;
+			sourceTree = "<group>";
+		};
+		1E489FC829250FEB00D916AE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1E489FC929250FEB00D916AE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1E489FD82925213C00D916AE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1E489FE42925303200D916AE /* Expense.swift */,
+				1E489FE629253EF400D916AE /* ExpenseDataModel.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1E489FD92925213E00D916AE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1E489FD2292520B600D916AE /* MainViewButtons.swift */,
+				1E489FD4292520CD00D916AE /* DebitCardView.swift */,
+				1E489FD6292520E300D916AE /* ExpensionRow.swift */,
+				1E489FE22925299500D916AE /* AddExpenseView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1E489FDA2925214300D916AE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1E489FD02925118F00D916AE /* Extensions+Colors.swift */,
+				1E489FDD292524E900D916AE /* Extensions+Double.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1E489FDF2925282900D916AE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1E489FE02925283300D916AE /* ExpensesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1E489FE929253F2C00D916AE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1E489FEA29253F3B00D916AE /* ExpensesDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E489FBE29250FEA00D916AE /* NewEraBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E489FCD29250FEB00D916AE /* Build configuration list for PBXNativeTarget "NewEraBank" */;
+			buildPhases = (
+				1E489FBB29250FEA00D916AE /* Sources */,
+				1E489FBC29250FEA00D916AE /* Frameworks */,
+				1E489FBD29250FEA00D916AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewEraBank;
+			productName = NewEraBank;
+			productReference = 1E489FBF29250FEA00D916AE /* NewEraBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E489FB729250FEA00D916AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					1E489FBE29250FEA00D916AE = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 1E489FBA29250FEA00D916AE /* Build configuration list for PBXProject "NewEraBank" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E489FB629250FEA00D916AE;
+			productRefGroup = 1E489FC029250FEA00D916AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E489FBE29250FEA00D916AE /* NewEraBank */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E489FBD29250FEA00D916AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E489FCA29250FEB00D916AE /* Preview Assets.xcassets in Resources */,
+				1E489FC729250FEB00D916AE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E489FBB29250FEA00D916AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E489FE52925303200D916AE /* Expense.swift in Sources */,
+				1E489FDE292524E900D916AE /* Extensions+Double.swift in Sources */,
+				1E489FEB29253F3B00D916AE /* ExpensesDataService.swift in Sources */,
+				1E489FC529250FEA00D916AE /* ContentView.swift in Sources */,
+				1E489FC329250FEA00D916AE /* NewEraBankApp.swift in Sources */,
+				1E489FE829253EF400D916AE /* ExpenseDataModel.xcdatamodeld in Sources */,
+				1E489FD12925118F00D916AE /* Extensions+Colors.swift in Sources */,
+				1E489FD5292520CD00D916AE /* DebitCardView.swift in Sources */,
+				1E489FD7292520E300D916AE /* ExpensionRow.swift in Sources */,
+				1E489FE32925299500D916AE /* AddExpenseView.swift in Sources */,
+				1E489FD3292520B600D916AE /* MainViewButtons.swift in Sources */,
+				1E489FE12925283300D916AE /* ExpensesViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1E489FCB29250FEB00D916AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E489FCC29250FEB00D916AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E489FCE29250FEB00D916AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NewEraBank/Preview Content\"";
+				DEVELOPMENT_TEAM = FU45F4SL37;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ogrodowskitomasz.NewEraBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E489FCF29250FEB00D916AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NewEraBank/Preview Content\"";
+				DEVELOPMENT_TEAM = FU45F4SL37;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ogrodowskitomasz.NewEraBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E489FBA29250FEA00D916AE /* Build configuration list for PBXProject "NewEraBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E489FCB29250FEB00D916AE /* Debug */,
+				1E489FCC29250FEB00D916AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E489FCD29250FEB00D916AE /* Build configuration list for PBXNativeTarget "NewEraBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E489FCE29250FEB00D916AE /* Debug */,
+				1E489FCF29250FEB00D916AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1E489FE629253EF400D916AE /* ExpenseDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1E489FE729253EF400D916AE /* ExpenseDataModel.xcdatamodel */,
+			);
+			currentVersion = 1E489FE729253EF400D916AE /* ExpenseDataModel.xcdatamodel */;
+			path = ExpenseDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1E489FB729250FEA00D916AE /* Project object */;
+}
